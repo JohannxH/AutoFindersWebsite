@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>AutoFinders | It's in the name</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/app_icon.png" />
+  </head>
+  <body>
+    <!-- Page Wrapper with flex for sticky footer -->
+    <div class="page-wrapper">
+      <!-- Topbar Start -->
+      <div class="container-fluid custom-topbar p-0">
+        <div class="row gx-0 d-none d-lg-flex">
+          <!-- Left Side: Location and Hours -->
+          <div class="col-lg-7 px-5 text-center text-md-start">
+            <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+              <small class="fa fa-map-marker-alt text-warning me-2"></small>
+              <small>Cape Town and Surrounding Areas, Western Cape</small>
+            </div>
+            <div class="h-100 d-inline-flex align-items-center py-3">
+              <small class="far fa-clock text-warning me-2"></small>
+              <small>Mon - Sat : 08.00 AM - 17.00 PM</small>
+            </div>
+          </div>
+          <!-- Right Side: Phone & Social -->
+          <div class="col-lg-5 px-5 text-end">
+            <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+              <small class="fa fa-phone-alt text-warning me-2"></small>
+              <a href="tel:+27794390483"><small>+27 79 439 0483</small></a>
+            </div>
+            <div class="h-100 d-inline-flex align-items-center">
+              <a
+                class="btn btn-sm-square bg-white text-warning me-1"
+                href="https://www.facebook.com/AutoFinders"
+                target="_blank"
+                aria-label="Facebook"
+              >
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a
+                class="btn btn-sm-square bg-white text-warning me-1"
+                href="https://www.instagram.com/AutoFinders/"
+                target="_blank"
+                aria-label="Instagram"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a
+                class="btn btn-sm-square bg-white text-warning me-0"
+                href="mailto:admin@autofinders.co.za"
+                aria-label="Email"
+              >
+                <i class="fas fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Topbar End -->
+
+      <!-- Main Content Start -->
+      <main class="main-content">
+        <section class="hero">
+          <h1>Welcome to AutoFinders!</h1>
+          <p>
+            Your trusted partner for comprehensive vehicle insights and services.
+          </p>
+          <!-- Insert your modern hero image -->
+          <img src="assets/logo_black.png" alt="Hero Image" class="hero-img" />
+        </section>
+
+        <section class="cards">
+          <div class="card">
+            <h3>Vehicle Valuations</h3>
+            <p>Get accurate and fast valuations for your vehicle.</p>
+            <!-- Insert image for valuations -->
+            <!-- <img src="images/valuation.jpg" alt="Vehicle Valuation" class="card-img" /> -->
+          </div>
+          <div class="card">
+            <h3>Accident Reports</h3>
+            <p>Receive detailed reports for any vehicle accident.</p>
+            <!-- Insert image for accident reports -->
+            <!-- <img src="images/report.jpg" alt="Accident Report" class="card-img" /> -->
+          </div>
+          <div class="card">
+            <h3>Marketplace Coming Soon</h3>
+            <p>
+              Private sellers and dealerships can list vehicles soon.
+            </p>
+            <!-- Insert marketplace image -->
+            <!-- <img src="images/marketplace.jpg" alt="Vehicle Marketplace" class="card-img" /> -->
+          </div>
+        </section>
+      </main>
+      <!-- Main Content End -->
+
+      <!-- Footer Start -->
+      <footer class="footer">
+        <div class="container">
+          <div class="row g-5 justify-content-center">
+            <!-- Left Column: Address -->
+            <div class="col-md-6 text-center text-md-start">
+              <h4 class="text-warning mb-4">Address</h4>
+              <p>
+                <i class="fa fa-map-marker-alt me-3 text-warning"></i>
+                Cape Town and Surrounding Areas, Western Cape
+              </p>
+            </div>
+            <!-- Right Column: Contact -->
+            <div class="col-md-6 text-center text-md-end">
+              <h4 class="text-warning mb-4">Contact</h4>
+              <p>
+                <a href="tel:+27794390483" class="text-light no-highlight">
+                  <i class="fa fa-phone-alt me-3 text-warning"></i>+27 79 439 0483
+                </a>
+              </p>
+              <p>
+                <a href="mailto:admin@autofinders.co.za" class="text-light no-highlight">
+                  <i class="fa fa-envelope me-3 text-warning"></i>admin@autofinders.co.za
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row footer-bottom text-center">
+            <div class="col-md-6 text-center text-md-start">
+              <p class="mb-0">&copy; 2025 AutoFinders. All Rights Reserved.</p>
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+              <p class="mb-0">
+                Maintained by:
+                <a
+                  href="https://fjhugo.netlify.app"
+                  class="text-light border-bottom border-warning"
+                >
+                  FJ Hugo
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer End -->
+    </div>
+    <!-- Page Wrapper End -->
+
+    <script src="script.js"></script>
+    <!-- Bootstrap JS Bundle (Optional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
