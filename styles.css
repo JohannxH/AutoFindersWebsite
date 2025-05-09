@@ -40,7 +40,7 @@ body {
 
 /* Adjust hero image (logo) to be a little smaller */
 .hero-img {
-  width: 100vw;
+  width: 100%;
   max-width: 600px;  /* Reduced from 800px for a smaller logo */
   height: auto;
   border-radius: 10px;
